@@ -1,0 +1,123 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.white{
+    color: white!important;
+}
+
+.all{
+    min-height: 600px;
+    /* background-color: blue; */
+}
+
+.img{
+    background-image: url("https://thumbs.dreamstime.com/b/jbl-flip-speaker-black-background-bures-sur-yvette-france-september-th-black-jbl-flip-speaker-black-background-197913101.jpg");
+    background-size: cover;
+}
+
+.float{
+    float: left;
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+.marg{
+    margin-top: 18px;
+}
+
+.info{
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.info h1{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.ibuttonn{
+    background-color: lightgreen;
+    padding: 10px 10px;
+    transition: 1s;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.ibuttonn ul li{
+    list-style-type: none;
+}
+
+.ibuttonn ul{
+    margin: 0px;
+}
+
+.ibuttonn ul li a{
+    text-decoration: none;
+    color: white    ;
+    margin: 0px;
+}
+
+.ibuttonn:hover{
+    background-color: green;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .ibuttonn{
+        padding: 10px 23px 10px 0; 
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
